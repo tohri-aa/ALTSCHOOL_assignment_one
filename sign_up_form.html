@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">My Biography</a></li>
+                <li><a href="./sign_up_form.html">Altschool Sign Up Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <section>
+        <h3>ALTSCHOOL APPLICATION FORM</h3>
+        <form action="/signup" method="post">
+            <p>
+                <label>Fill in your details</label><br>
+            </p>
+            
+            <p>
+                <label>First Name</label><br>
+                <input type="text" name="first_name" placeholder="Enter first name" required>  
+            </p>
+            <p>
+                <label>Last Name</label><br>
+                <input type="text" name="last_name" placeholder="Enter last name" required>  
+            </p>
+            <p>
+                <label>Gender</label><br>
+                <select name="gender" id="" required>
+                    <option>Select gender</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option>Prefer not to say</option>
+                </select>
+            </p>
+            <p>
+                <label>Date of Birth</label><br>
+                <input type="text" name="date_of_birth" placeholder="mm/dd/yyyy" required>  
+            </p>
+            <p>
+                <label>Email Address</label><br>
+                <input type="email" name="email" placeholder="Enter email address" required>  
+            </p>
+            <p>
+                <label>Educational Level</label><br>
+                <select name="education" id="">
+                    <option>Select level of education</option>
+                    <option>Bsc</option>
+                    <option>Msc</option>
+                    <option>Diploma</option>
+                    <option>Doctorate (PhD)</option>
+                    <option>High School / Secondary School</option>
+                    <option>Undergraduate</option>
+                    <option>Junior / Middle School</option>
+                    <option>Post Graduate</option>
+                </select>
+            </p>
+            <p>
+                <label>Country</label><br>
+                <select>
+                    <option>Select your country</option>
+                    <option>Afghanistan</option>
+                    <option>Albania</option>
+                    <option>Algeria</option>
+                </select>
+            </p>
+            <p>
+                <label>State/City of Residence</label><br>
+                <input type="text" name="state_of_residence" placeholder="Enter your state of residence" required>
+            </p>
+            <p>
+                <label>Employment Status</label><br>
+                <select>
+                    <option>Select employment status</option>
+                    <option>Employed</option>
+                    <option>Unemployed</option>
+                    <option>Self-employed></option>
+                </select>
+            </p>
+            <p>
+                <label>Phone Number</label><br>
+                <input type="tel" name="phone" placeholder="08154387000" required>  
+            </p>
+            <p>
+                <label>Choose School</label><br>
+                <select>
+                    <option>Select school</option>
+                    <option>School of Business</option>
+                    <option>School of Business</option>
+                </select>  
+            </p>
+            <p>
+                <label>Choose Course of Study</label><br>
+                <input type="text" name="course" placeholder="
+                Select course" required>
+            </p>
+            <p>
+                <label>How did you hear about us?</label><br>
+                <select>
+                    <option>Select channel</option>
+                    <option>Facebook</option>
+                    <option>Billboard</option>
+                    <option>Friend</option>
+                    <option>Instagram</option>
+                    <option>Twitter</option>
+                    <option>Whatsapp</option>
+                    <option>YouTube</option>
+                    <option>Other</option>
+                </select>
+            </p>
+            <p>
+                <label>Scholarship/Discount Code (optional)</label><br>
+                <input type="text" name="first_name" placeholder="Scholarship or student ID or discount code" required>  
+            </p><br>
+            <p>
+                By clicking continue, I agree to Terms of Use and acknowledge that I read the Privacy Policy.
+            </p>
+
+            <button>Proceed</button>
+        </form>
+    </section>
+</body>
+</html>
